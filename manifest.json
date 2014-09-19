@@ -1,0 +1,20 @@
+{
+  "name": "Freenomist",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "The Freenomist - Free the Economist.",
+  "homepage_url": "http://www.technoprenerd.com",
+  "background": {
+  			"scripts": 	["scripts/background.js"]
+		},
+
+  "permissions": [
+        "cookies",
+        "*://*.economist.com/"
+  		],
+  "browser_action": {
+	  "default_icon": "images/icon.png",
+	  "default_title": "The Freenomist",
+	  "default_popup": "popup.html"
+  }
+}
